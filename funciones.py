@@ -1,4 +1,5 @@
 #aca van las funciones
+<<<<<<< HEAD
 #vamos a hacer una calculadora
 # numero1 + numero2 = resultado
 
@@ -18,3 +19,16 @@ elif opcion == 2:
 elif opcion == 3:
     resultado = numero1 * numero2
     print("El resultado de la multiplicación", resultado)
+=======
+# Aca mi parte
+
+elif opcion == "4":
+    if num2 == 0:
+        print("No se puede dividir por cero.")
+    else:
+        resultado = num1 / num2
+        print("Resultado:", resultado)
+
+else:
+    print("Opción no válida.")
+>>>>>>> angel
